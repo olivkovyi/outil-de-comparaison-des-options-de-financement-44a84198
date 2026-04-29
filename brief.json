@@ -1,0 +1,286 @@
+{
+  "run_id": "run-1777425040962",
+  "job_index": 4,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 5,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Permet aux entrepreneurs de naviguer dans le paysage du financement et de choisir la meilleure option pour le…",
+    "notes": "Comparez les différentes solutions de financement disponibles en France pour les startups et les TPE (prêts bancaires, aides publiques, crowdfunding, business angels).\nAnalyse les besoins financiers, le secteur d'activité et le stade de développement pour proposer un comparatif des dispositifs pertinents.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "tool",
+      "calculator",
+      "generator"
+    ],
+    "forced_design_theme": "swiss-signal",
+    "forced_structure_preset": "quick-compare-strip",
+    "site_idea_title": "Outil de Comparaison des Options de Financement pour Créateurs d'Entreprise",
+    "site_idea_summary": "Comparez les différentes solutions de financement disponibles en France pour les startups et les TPE (prêts bancaires, aides publiques, crowdfunding, business angels)."
+  },
+  "site_spec": {
+    "slug": "outil-de-comparaison-des-options-de-financement-44a84198",
+    "theme": {
+      "name": "Swiss Signal",
+      "slug": "swiss-signal",
+      "eyebrow": "Precision Layout",
+      "family": "swiss-signal",
+      "moods": [
+        "clean",
+        "precise",
+        "professional",
+        "trustworthy"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator",
+        "generator"
+      ],
+      "niches": [
+        "finance",
+        "insurance",
+        "comparison",
+        "b2b",
+        "compliance"
+      ],
+      "keywords": [
+        "trust",
+        "precision",
+        "clarity",
+        "comparison",
+        "professional"
+      ],
+      "token_index": [
+        "b2b",
+        "calculator",
+        "clarity",
+        "clean",
+        "comparison",
+        "compliance",
+        "finance",
+        "generator",
+        "insurance",
+        "layout",
+        "precise",
+        "precision",
+        "professional",
+        "signal",
+        "swiss",
+        "tool",
+        "trust",
+        "trustworthy"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Syne:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"Syne\", sans-serif",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "swiss",
+      "card_style": "outline",
+      "button_style": "outline",
+      "decor_style": "grid",
+      "hero_template": "1fr 1fr",
+      "seo_template": "1.45fr 0.55fr",
+      "feature_columns": 3,
+      "faq_columns": 4,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "0px",
+      "palette": {
+        "bg": "#f8fafc",
+        "surface": "rgba(255,255,255,0.9)",
+        "surface_border": "rgba(15,23,42,0.16)",
+        "text": "#0f172a",
+        "muted": "#475569",
+        "accent": "#ef4444",
+        "accent_alt": "#0f172a",
+        "hero_glow": "rgba(239, 68, 68, 0.12)",
+        "button_text": "#0f172a",
+        "panel_alt": "rgba(248,250,252,0.96)",
+        "shadow": "0 24px 70px rgba(15, 23, 42, 0.08)",
+        "input_fill": "rgba(15,23,42,0.03)"
+      }
+    },
+    "structure": {
+      "name": "Quick Compare Strip",
+      "slug": "quick-compare-strip",
+      "hero_variant": "tool-first",
+      "proof_variant": "metrics",
+      "section_order": [
+        "proof",
+        "features",
+        "faq",
+        "seo"
+      ],
+      "feature_columns": 3,
+      "faq_columns": 2,
+      "family": "compare-strip",
+      "moods": [
+        "direct",
+        "fast",
+        "comparison"
+      ],
+      "archetypes": [
+        "calculator",
+        "tool"
+      ],
+      "niches": [
+        "insurance",
+        "finance",
+        "quotes",
+        "switching"
+      ],
+      "keywords": [
+        "compare",
+        "choices",
+        "fast",
+        "matrix"
+      ],
+      "token_index": [
+        "calculator",
+        "choices",
+        "compare",
+        "comparison",
+        "direct",
+        "faq",
+        "fast",
+        "features",
+        "finance",
+        "first",
+        "insurance",
+        "matrix",
+        "metrics",
+        "proof",
+        "quick",
+        "quotes",
+        "seo",
+        "strip",
+        "switching",
+        "tool"
+      ]
+    },
+    "render_direction": "campaign-slab",
+    "render_direction_name": "Campaign Slab",
+    "page_blueprint": "magazine-fold",
+    "page_blueprint_name": "Magazine Fold",
+    "title": "Outil de Comparaison des Options de Financement pour Créateurs d'Entreprise",
+    "tagline": "Votre profil, vos solutions de financement",
+    "description": "Comparez les différentes solutions de financement disponibles en France pour les startups et les TPE (prêts bancaires, aides publiques, crowdfunding, business angels).",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Comparer les solutions",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Campaign Slab",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Campaign Slab",
+      "Comparer les solutions",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "showcase",
+    "faq_topic": "Outil de Comparaison des Options de Financement pour Créateurs d'Entreprise",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Outil de Comparaison des Options de Financement pour Créateurs d'Entreprise ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Outil de Comparaison des Options de Financement pour Créateurs d'Entreprise et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Outil de Comparaison des Options de Financement pour Créateurs d&#x27;Entreprise | Votre profil, vos solutions de financement</title>\n    <meta name=\"description\" content=\"Comparez les différentes solutions de financement disponibles en France pour les startups et les TPE (prêts bancaires, aides publiques, crowdfunding, business angels).\">\n    <style>\n        :root {\n            --color-primary: #0056b3;\n            --color-secondary: #007bff;\n            --color-background: #f4f7f6;\n            --color-text: #333;\n            --color-light-text: #555;\n            --color-border: #e0e0e0;\n            --color-card-background: #ffffff;\n            --font-family-grotesk: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n            --spacing-unit: 1rem;\n        }\n\n        body {\n            font-family: var(--font-family-grotesk);\n            line-height: 1.6;\n            color: var(--color-text);\n            background-color: var(--color-background);\n            margin: 0;\n            padding: 0;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n\n        header {\n            width: 100%;\n            background: linear-gradient(135deg, #0056b3, #007bff);\n            color: white;\n            padding: calc(var(--spacing-unit) * 3) calc(var(--spacing-unit) * 2);\n            text-align: center;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n        }\n\n        header h1 {\n            font-size: 2.8rem;\n            margin-bottom: var(--spacing-unit);\n            font-weight: 800;\n        }\n\n        header p {\n            font-size: 1.2rem;\n            max-width: 800px;\n            margin: 0 auto;\n            opacity: 0.9;\n        }\n\n        .container {\n            width: 100%;\n            max-width: 1200px;\n            padding: calc(var(--spacing-unit) * 2);\n            box-sizing: border-box;\n        }\n\n        .section {\n            background-color: var(--color-card-background);\n            border-radius: 8px;\n            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);\n            margin-bottom: calc(var(--spacing-unit) * 2);\n            padding: calc(var(--spacing-unit) * 2);\n            border-top: 5px solid var(--color-primary);\n        }\n\n        h2 {\n            color: var(--color-primary);\n            font-size: 2rem;\n            margin-bottom: calc(var(--spacing-unit) * 1.5);\n            font-weight: 700;\n        }\n\n        .form-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: var(--spacing-unit) calc(var(--spacing-unit) * 2);\n            margin-top: var(--spacing-unit);\n        }\n\n        .form-group {\n            margin-bottom: var(--spacing-unit);\n        }\n\n        label {\n            display: block;\n            margin-bottom: 0.5rem;\n            font-weight: 600;\n            color: var(--color-light-text);\n            font-size: 0.95rem;\n        }\n\n        input[type=\"number\"],\n        select {\n            width: 100%;\n            padding: 0.75rem;\n            border: 1px solid var(--color-border);\n            border-radius: 4px;\n            font-size: 1rem;\n            box-sizing: border-box;\n            transition: border-color 0.2s;\n            -webkit-appearance: none;\n            -moz-appearance: none;\n            appearance: none;\n        }\n\n        input[type=\"number\"]:focus,\n        select:focus {\n            border-color: var(--color-secondary);\n            outline: none;\n            box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);\n        }\n\n        button {\n            background-color: var(--color-primary);\n            color: white;\n            padding: 1rem 1.5rem;\n            border: none;\n            border-radius: 4px;\n            font-size: 1.1rem;\n            cursor: pointer;\n            transition: background-color 0.2s ease, transform 0.1s ease;\n            width: auto;\n            min-width: 180px;\n            display: block;\n            margin-top: calc(var(--spacing-unit) * 1.5);\n        }\n\n        button:hover {\n            background-color: #004494;\n            transform: translateY(-1px);\n        }\n\n        button:active {\n            transform: translateY(0);\n        }\n\n        #tool-result {\n            margin-top: calc(var(--spacing-unit) * 2);\n            padding: var(--spacing-unit);\n            background-color: #e9f7fe;\n            border: 1px solid #cceeff;\n            border-radius: 8px;\n            min-height: 100px;\n            display: flex;\n            flex-direction: column;\n            gap: var(--spacing-unit);\n            align-items: flex-start;\n        }\n\n        .result-card {\n            background-color: white;\n            border: 1px solid var(--color-border);\n            border-radius: 6px;\n            padding: var(--spacing-unit);\n            width: 100%;\n            box-sizing: border-box;\n            display: flex;\n            flex-direction: column;\n            gap: 0.5rem;\n        }\n\n        .result-card h3 {\n            color: var(--color-primary);\n            margin: 0 0 0.5rem 0;\n            font-size: 1.3rem;\n        }\n\n        .result-card p {\n            margin: 0;\n            font-size: 0.95rem;\n            color: var(--color-light-text);\n        }\n\n        .result-card strong {\n            color: var(--color-text);\n        }\n\n        .cta-section {\n            text-align: center;\n            padding: calc(var(--spacing-unit) * 3) 0;\n            background-color: #e6eef6;\n            margin-top: calc(var(--spacing-unit) * 2);\n            border-radius: 8px;\n        }\n\n        .cta-section h2 {\n            color: var(--color-primary);\n            font-size: 2.2rem;\n            margin-bottom: var(--spacing-unit);\n        }\n\n        .cta-section p {\n            max-width: 700px;\n            margin: 0 auto calc(var(--spacing-unit) * 2) auto;\n            font-size: 1.1rem;\n            color: var(--color-light-text);\n        }\n\n        .cta-buttons {\n            display: flex;\n            justify-content: center;\n            gap: var(--spacing-unit);\n            flex-wrap: wrap;\n        }\n\n        .cta-buttons button {\n            margin: 0;\n        }\n\n        .cta-buttons .soft-cta {\n            background-color: transparent;\n            color: var(--color-primary);\n            border: 1px solid var(--color-primary);\n            transition: background-color 0.2s ease, color 0.2s ease;\n        }\n\n        .cta-buttons .soft-cta:hover {\n            background-color: var(--color-primary);\n            color: white;\n        }\n\n        .seo-section {\n            padding: calc(var(--spacing-unit) * 3) 0;\n            text-align: left;\n            border-top: 1px solid var(--color-border);\n            margin-top: calc(var(--spacing-unit) * 2);\n        }\n\n        .seo-section h3 {\n            color: var(--color-primary);\n            font-size: 1.6rem;\n            margin-bottom: var(--spacing-unit);\n        }\n\n        .seo-section p {\n            font-size: 0.9rem;\n            color: var(--color-light-text);\n            margin-bottom: 0.7rem;\n        }\n\n        footer {\n            width: 100%;\n            text-align: center;\n            padding: calc(var(--spacing-unit) * 2);\n            background-color: var(--color-primary);\n            color: white;\n            font-size: 0.9rem;\n            margin-top: calc(var(--spacing-unit) * 3);\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://outil-de-comparaison-des-options-de-financement-44a84198.onrender.com\">\n    <meta property=\"og:title\" content=\"Outil de Comparaison des Options de Financement pour Créateurs d&#x27;Entreprise\">\n    <meta property=\"og:description\" content=\"Comparez les différentes solutions de financement disponibles en France pour les startups et les TPE (prêts bancaires, aides publiques, crowdfunding, business angels).\">\n    <meta property=\"og:url\" content=\"https://outil-de-comparaison-des-options-de-financement-44a84198.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Outil de Comparaison des Options de Financement pour Créateurs d'Entreprise\", \"description\": \"Comparez les différentes solutions de financement disponibles en France pour les startups et les TPE (prêts bancaires, aides publiques, crowdfunding, business angels).\", \"url\": \"https://outil-de-comparaison-des-options-de-financement-44a84198.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"outil-de-comparaison-des-options-de-financement-44a84198\" data-runtime-mode=\"analysis_tool\">\n    <header>\n        <h1>Naviguez les options de financement pour votre entreprise</h1>\n        <p>Comparez les solutions de financement disponibles en France pour les startups et les TPE : prêts bancaires, aides publiques, crowdfunding, business angels.</p>\n    </header>\n\n    <main class=\"container\">\n        <section class=\"section\">\n            <h2>Votre profil, vos solutions de financement</h2>\n            <p>Renseignez quelques informations clés pour découvrir les options les plus pertinentes pour votre projet.</p>\n\n            <form id=\"tool-form\">\n                <div class=\"form-grid\">\n                    <div class=\"form-group\">\n                        <label for=\"montant\">Montant recherché (en €) :</label>\n                        <input type=\"number\" id=\"montant\" value=\"50000\" min=\"1000\" required>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"secteur\">Secteur d'activité :</label>\n                        <select id=\"secteur\" required>\n                            <option value=\"technologie\">Technologie / Numérique</option>\n                            <option value=\"commerce\">Commerce / E-commerce</option>\n                            <option value=\"services\">Services aux entreprises / Particuliers</option>\n                            <option value=\"industrie\">Industrie / Fabrication</option>\n                            <option value=\"artisanat\">Artisanat / Métiers d'art</option>\n                            <option value=\"agricole\">Agricole / Agroalimentaire</option>\n                            <option value=\"social\">Économie Sociale et Solidaire (ESS)</option>\n                            <option value=\"autre\">Autre</option>\n                        </select>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"developpement\">Stade de développement :</label>\n                        <select id=\"developpement\" required>\n                            <option value=\"idee\">Idée / Pré-création</option>\n                            <option value=\"creation\">Création (moins d'1 an)</option>\n                            <option value=\"lancement\">Lancement (1-3 ans)</option>\n                            <option value=\"croissance\">Croissance (plus de 3 ans)</option>\n                        </select>\n                    </div>\n                    <div class=\"form-group\">\n                        <label for=\"effectif\">Effectif actuel (salariés) :</label>\n                        <input type=\"number\" id=\"effectif\" value=\"0\" min=\"0\" required>\n                    </div>\n                </div>\n                <button type=\"submit\" id=\"tool-submit\">Comparer les solutions</button>\n            </form>\n            <div id=\"tool-result\">\n                <p id=\"result-detail\">Vos recommandations de financement apparaîtront ici.</p>\n            </div>\n        </section>\n\n        <section class=\"section cta-section\">\n            <h2>Prêt à concrétiser votre projet ?</h2>\n            <p>Chaque projet est unique. Approfondissez les options et trouvez le partenaire financier idéal pour votre réussite.</p>\n            <div class=\"cta-buttons\">\n                <button data-affiliate-slot=\"slot-1\">Obtenir un accompagnement personnalisé</button>\n                <button class=\"soft-cta\" data-affiliate-slot=\"slot-2\">Découvrir nos guides sectoriels</button>\n            </div>\n        </section>\n\n        <section class=\"seo-section\">\n            <h3>Financement d'entreprise en France : Votre guide complet</h3>\n            <p>Le financement est une étape cruciale pour toute entreprise, qu'il s'agisse d'une startup innovante ou d'une TPE locale. En France, les entrepreneurs disposent d'un large éventail de solutions : <strong>prêts bancaires professionnels</strong> (crédits à l'investissement, prêts de trésorerie), <strong>aides publiques</strong> (subventions régionales, nationales, européennes, Bpifrance), <strong>financement participatif</strong> (crowdfunding en equity ou prêt), et <strong>investisseurs privés</strong> (Business Angels, fonds d'investissement). Choisir la bonne option dépend de nombreux facteurs : le montant nécessaire, votre secteur d'activité (technologie, commerce, services), le stade de développement de votre projet (création, amorçage, croissance), et votre situation d'emploi (créateur d'entreprise, demandeur d'emploi).</p>\n            <p>Notre outil vous aide à naviguer ce complexe paysage. Que vous recherchiez des <strong>solutions de financement pour startups</strong>, des <strong>aides pour TPE</strong>, ou des informations sur les <strong>dispositifs de Bpifrance</strong>, nous vous offrons une première analyse pertinente. Comprendre les spécificités de chaque type de financement – de l'apport personnel aux garanties nécessaires, en passant par les conditions de remboursement – est essentiel pour sécuriser l votre développement. Explorez les options de <strong>financement sans apport</strong>, les <strong>prêts d'honneur</strong>, les <strong>subventions pour la création d'entreprise</strong>, et les opportunités d'<strong>investissement en capital risque</strong> ou <strong>love money</strong>. Notre comparateur est conçu pour éclairer votre parcours et vous orienter vers les meilleures ressources.</p>\n        </section>\n    </main>\n\n    <footer>\n        <p>&copy; 2023 Comparateur de Financement. Tous droits réservés.</p>\n    </footer>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const montant = parseInt(document.getElementById('montant').value);\n            const secteur = document.getElementById('secteur').value;\n            const developpement = document.getElementById('developpement').value;\n            const effectif = parseInt(document.getElementById('effectif').value);\n            const resultDiv = document.getElementById('tool-result');\n            resultDiv.innerHTML = ''; // Clear previous results\n\n            let recommendations = [];\n\n            // Prêts Bancaires\n            if (montant >= 10000 && developpement !== 'idee') {\n                recommendations.push({\n                    title: \"Prêt Bancaire Classique\",\n                    description: \"Adapté pour des besoins d'investissement ou de fonds de roulement. Généralement, nécessite un plan d'affaires solide et des garanties.\",\n                    condition: `Montant : ${montant}€ - Requis : Plan d'affaires & Garanties.`,\n                    pertinence: 0\n                });\n            }\n\n            // Aides Publiques (Bpifrance, Régions)\n            if (developpement === 'idee' || developpement === 'creation' || montant < 50000) {\n                recommendations.push({\n                    title: \"Aides Bpifrance / Régionales\",\n                    description: \"Subventions, prêts d'honneur ou garanties. Idéales pour l'amorçage ou l'innovation. Vérifiez votre éligibilité.\",\n                    condition: `Montant : ${montant}€ - Spécifique : Innovation ou jeune entreprise.`,\n                    pertinence: 0\n                });\n            }\n\n            // Crowdfunding (Financement Participatif)\n            if (montant <= 200000 && (developpement === 'creation' || developpement === 'lancement' || developpement === 'croissance')) {\n                recommendations.push({\n                    title: \"Crowdfunding (Prêt ou Equity)\",\n                    description: \"Implique une large communauté d'investisseurs. Excellent pour tester le marché et gagner en visibilité. Moins exigeant en garanties.\",\n                    condition: `Montant : ${montant}€ - Attrayant pour le public.`,\n                    pertinence: 0\n                });\n            }\n\n            // Business Angels / Capital Risque\n            if (montant >= 100000 && (secteur === 'technologie' || developpement === 'croissance')) {\n                recommendations.push({\n                    title: \"Business Angels / Capital Risque\",\n                    description: \"Investissement en capital avec prise de participation. Souvent recherché pour les projets à fort potentiel de croissance ou innovants.\",\n                    condition: `Montant : ${montant}€ - Secteur : ${secteur}. Fort potentiel.`,\n                    pertinence: 0\n                });\n            }\n\n            // Micro-crédit (Adie)\n            if (montant < 10000 && (developpement === 'idee' || developpement === 'creation')) {\n                 recommendations.push({\n                    title: \"Micro-crédit (ex: Adie)\",\n                    description: \"Petit prêt pour les créateurs d'entreprise ayant difficilement accès au crédit bancaire classique. Accompagnement inclus.\",\n                    condition: `Montant : ${montant}€ - Requis : Accès difficile au crédit.`,\n                    pertinence: 0\n                });\n            }\n\n            // Crédit Bail / Location Financière\n            if (montant >= 20000 && (secteur === 'industrie' || secteur === 'commerce') && developpement !== 'idee') {\n                 recommendations.push({\n                    title: \"Crédit Bail / Location Financière\",\n                    description: \"Pour financer l'acquisition de biens d'équipement (matériel, véhicules) sans immobiliser trop de capital initial.\",\n                    condition: `Montant : ${montant}€ - Secteur : ${secteur} (équipement lourd).`,\n                    pertinence: 0\n                });\n            }\n\n\n            // Pertinence Scoring (simple example)\n            recommendations.forEach(rec => {\n                if (montant >= 50000 && montant <= 200000 && (developpement === 'lancement' || developpement === 'croissance')) {\n                    if (rec.title.includes('Bancaire') || rec.title.includes('Crowdfunding')) rec.pertinence += 2;\n                }\n                if (secteur === 'technologie' && (rec.title.includes('Angels') || rec.title.includes('Bpifrance'))) {\n                    rec.pertinence += 1;\n                }\n                if (developpement === 'idee' || developpement === 'creation') {\n                    if (rec.title.includes('Bpifrance') || rec.title.includes('Crowdfunding') || rec.title.includes('Micro-crédit')) rec.pertinence += 2;\n                }\n            });\n\n            // Sort by pertinence (descending)\n            recommendations.sort((a, b) => b.pertinence - a.pertinence);\n\n\n            if (recommendations.length > 0) {\n                recommendations.forEach(rec => {\n                    const card = document.createElement('div');\n                    card.classList.add('result-card');\n                    card.innerHTML = `\n                        <h3>${rec.title}</h3>\n                        <p><strong>Description :</strong> ${rec.description}</p>\n                        <p><strong>Conditions indicatives :</strong> ${rec.condition}</p>\n                    `;\n                    resultDiv.appendChild(card);\n                });\n            } else {\n                resultDiv.innerHTML = '<p>Aucune recommandation spécifique pour votre profil. N\\'hésitez pas à consulter un expert pour une analyse plus approfondie.</p>';\n            }\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.setAttribute(\"rel\", \"nofollow sponsored noopener noreferrer\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\", \"noopener\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
